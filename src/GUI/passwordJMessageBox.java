@@ -44,7 +44,7 @@ public class passwordJMessageBox {
                         fileWriter.append(konto+": " + password+"\n");
                         fileWriter.close();
                     }catch(Exception ex){
-
+                    	System.out.println("Fehler beim Schriben in die Datei");
                     }
 
 }}}}
